@@ -1,8 +1,8 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `blog.djbaek.com`,
+  description: `백동진의 블로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `http://blog.djbaek.com`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -11,16 +11,16 @@ module.exports = {
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `백동진`,
     bio: {
-      role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      role: ``,
+      description: [''],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
+      github: `https://github.com/dongjinBaek`, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      email: `dj9136@gmail.com`, // `zoomkoding@gmail.com`,
     },
   },
 
@@ -43,12 +43,33 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
+        date: '2021.04 ~ 2021.11',
+        activity: 'SW 마에스트로 12기, Fullstack Developer',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+        },
+      },
+      {
+        date: '2019.04 ~ 2021.02',
+        activity: '공군 정보체계관리단, 소프트웨어 개발병',
+        links: {
+        },
+      },
+      {
+        date: '2018.07 ~ 2018.08',
+        activity: 'Rideflux, SW Engineering Intern',
+        links: {
+        },
+      },
+      {
+        date: '2017.03 ~',
+        activity: '서울대학교 컴퓨터공학부 재학중',
+        links: {
+        },
+      },
+      {
+        date: '2014.03 ~ 2017.02',
+        activity: '서울과학고등학교 졸업',
+        links: {
         },
       },
     ],

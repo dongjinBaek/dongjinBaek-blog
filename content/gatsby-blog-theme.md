@@ -1,5 +1,5 @@
 ---
-emoji: 🔮
+emoji: ''
 title: Gatsby 테마로 GitHub Blog 만들기
 date: '2021-07-06 00:00:00'
 author: 줌코딩
