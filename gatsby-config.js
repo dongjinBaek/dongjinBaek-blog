@@ -13,12 +13,22 @@ module.exports = {
         path: `${__dirname}/assets`,
       },
     },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `content`,
+    //     path: `${__dirname}/content`,
+    //   },
+    // },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-source-git`,
       options: {
         name: `content`,
-        path: `${__dirname}/content`,
-      },
+        remote: `https://github.com/dongjinBaek/dongjinBaek-blog-content.git`,
+        branch: `master`,
+        // Only import the docs folder from a codebase.
+        patterns: `*.md`
+      }
     },
     {
       resolve: 'gatsby-plugin-robots-txt',
