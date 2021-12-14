@@ -24,7 +24,7 @@ module.exports = {
       resolve: `gatsby-source-git`,
       options: {
         name: `content`,
-        remote: `https://dongjinBaek:${process.env.GITHUB_TOKEN}@github.com/dongjinBaek-blog-content.git`,
+        remote: `https://dongjinBaek:${process.env.GITHUB_TOKEN}@github.com/dongjinBaek/dongjinBaek-blog-content.git`,
         branch: `master`,
         // Only import the docs folder from a codebase.
         patterns: `*.md`
