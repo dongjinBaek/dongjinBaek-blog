@@ -46,6 +46,7 @@ module.exports = {
         date: '2021.04 ~ 2021.11',
         activity: 'SW 마에스트로 12기, Fullstack Developer',
         links: {
+          post: '/소프트웨어%20마에스트로%20회고/'
         },
       },
       {
