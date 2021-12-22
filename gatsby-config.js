@@ -17,7 +17,7 @@ module.exports = {
         // This config will be shared across all trackingIds
         gtagConfig: {
           // optimize_id: "OPT_CONTAINER_ID",
-          anonymize_ip: true,
+          // anonymize_ip: true,
           cookie_expires: 0,
         },
         // This object is used for configuration specific to this plugin
