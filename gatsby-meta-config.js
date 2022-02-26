@@ -2,14 +2,14 @@ module.exports = {
   title: `blog.djbaek.com`,
   description: `백동진의 블로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `http://blog.djbaek.com`,
+  siteUrl: `http://blog.dongjinbaek.com`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
       repo: `dongjinBaek/dongjinBaek-blog`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
-  ga: 'G-80J0RGQGBR', // Google Analytics Tracking ID
+  ga: 'G-XFZ3Z3R533', // Google Analytics Tracking ID
   author: {
     name: `백동진`,
     bio: {
@@ -19,7 +19,7 @@ module.exports = {
     },
     social: {
       github: `https://github.com/dongjinBaek`, // `https://github.com/zoomKoding`,
-      linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
+      linkedIn: `https://www.linkedin.com/in/%EB%8F%99%EC%A7%84-%EB%B0%B1-136693217/`, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
       email: `dj9136@gmail.com`, // `zoomkoding@gmail.com`,
     },
   },
